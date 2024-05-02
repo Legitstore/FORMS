@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport"  content="width=device-width, intial-scale=1.0">
+<title>Office form</title>
+        <!--    ------ font awesome cdn ----- -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+   <!--    ------ boxicon cdn ----- -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+   <!--    ------ custom link ----- -->
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <div class="container">
+      <form action="">
+      <h2>Office form</h2>
+      <div class="box">
+         <span>first name</span>
+         <input type="text" placeholder="First Name" required>
+         <span>last name</span>
+         <input type="text" placeholder="Last Name" class="last" required>
+      </div>
+
+      <div class="box1">
+         <span>email</span>
+         <input type="email" placeholder="Email" required>
+      </div>
+
+      <div class="box2">
+         <label for="">gender</label>
+         <select class="Gender" id="">
+            <option value="">Male</option>
+            <option value="">Female</option>
+            <option value="">other</option>
+         </select>
+
+         <span>age</span>
+         <input type="number" name="" id="" placeholder="" required>
+      </div>
+      
+      <div class="box3">
+         <label >tel no.</label>
+         <select class="Tel" id="" >
+            <option value=""> +234 nigeria</option>
+            <option value="">+1 USA</option>
+            <option value="">+971 UAE</option>
+            <input type="text" placeholder="pohne number" required>
+         </select>
+      </div>
+
+      <div class="box4">
+         <span>password</span>
+         <input type="password" class="pass" placeholder="enter password" required>
+         <span>confirm password</span>
+         <input type="password" class="conpass" placeholder="confirm password" required>
+      </div>
+
+      <div class="box5">
+         <p>forgot password? <a href="">click here</a></p>
+         <p>have an account? <a href="">sign in</a></p>
+         
+      </div>
+      <button type="submit">register</button>
+      </form>
+   </div>
+</body>
+</html> 

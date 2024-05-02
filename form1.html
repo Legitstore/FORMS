@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <title>Office form</title>
+    <link rel="stylesheet" href="form1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrap"></div>
+        <h1>Office Registration Form</h1>
+       
+        <form>
+            <!-- <h1>Office Registration Form</h1> -->
+            <div class="txt-field">
+                <label for="">First name</label>
+                <input type="text" placeholder="First name" required>
+                <label for="">Last name</label>
+                <input type="text" placeholder="Last name" required>
+            </div>
+
+            <div class="txt-field1">
+                <label for="">Email</label>
+                <input type="email" placeholder="Email address" required>
+            </div>
+
+            <div class="selecting">
+                <label for="">Gender</label>
+                <div class="selec">
+                    
+                    <select >
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </select>
+
+                    <label class="age">Age</label>
+                    <input type="number">
+                </div>
+            </div>
+            
+
+            <div class="txt-field2">
+                <label for="">Tel No.</label>
+                <select>
+                    <option >+234 Nigeria</option>
+                    <option >+1 USA</option>
+                    <option >+1 Canada</option>
+                    <option >+971 UAE</option>
+                </select>
+                <input type="tel" placeholder="Phone number" required>
+            </div>
+
+            <div class="txt-field3">
+                <label for="">Password</label>
+                <input type="password" placeholder="Password" required>
+                <label for="">Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" required>
+            </div>
+
+            <div class="link">
+                <p><input type="checkbox"> I agree to the <a href="">Terms & conditions</a></p>
+                <p>Have an account? <a href="">Sigin</a></p>
+            </div>
+
+            <div class="box">
+                
+                <button type="submit">Register</button>
+            </div>
+                
+        </form>
+    </div>
+</body>
+</html>

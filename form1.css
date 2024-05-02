@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#8ca3ff, #8fecf8);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 670px;
+    height: 490px;
+    border-radius: 20px;
+    background: #774df6;
+    box-shadow: 0 5px 25px #5a5a5a;
+    position: relative;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    background: #10b2c7;
+    position: absolute;
+    border-radius: 20px;
+    clip-path: circle(90% at 0 0);
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    background: #774df6;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+}
+form{
+    padding: 10px 30px;
+    position: relative;
+}
+.txt-field{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.txt-field label{
+    padding: 8px 0;
+    font-size: 20px;
+    color: #333;
+    font-family: roboto;
+}
+.txt-field input{
+    height: 40px;
+    border: 0;
+    outline: 0;
+    padding: 0 8px;
+    border-radius: 10px;
+}
+::placeholder{
+    font-size: 16px;
+}
+.txt-field3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.txt-field3 label{
+    padding: 8px 0;
+    font-size: 20px;
+    color: #333;
+    font-family: roboto;
+}
+.txt-field3 input{
+    height: 40px;
+    border: 0;
+    outline: 0;
+    padding: 0 8px;
+    border-radius: 10px;
+}
+::placeholder{
+    font-size: 16px;
+}
+/* -------------------------  */
+.txt-field1{
+    display: flex;
+    margin: 5px 0;
+}
+.txt-field1 label{
+    margin: 20px 0;
+    font-size: 20px;
+    color: #333;
+    font-family: roboto;
+}
+.txt-field1 input{
+    width: 85%;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    padding: 0 8px;
+    margin: 15px 0 0 50px;
+    border-radius: 10px;
+}
+/* -------------------------  */
+.selecting{
+    display: flex;
+    margin: 10px 0;
+}
+.selecting label{
+    font-size: 20px;
+    color: #333;
+    font-family: roboto;
+}
+.selecting .selec{
+    padding-left: 150px;
+    
+}
+
+.age{
+    padding-left: 50px;
+}
+.selec input{
+    height: 40px;
+    border: 0;
+    width: 70px;
+    outline: 0;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.selec select{
+    height: 40px;
+    border: 0;
+    outline: 0;
+    color: #6045fc;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+} 
+/* -------------------------  */
+
+.txt-field2{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 10px 0;
+}
+.txt-field2 label{
+    font-size: 20px;
+    color: #333;
+    font-family: roboto;
+    margin: 10px 0;
+    padding-right: 25px;
+}
+.txt-field2 select{
+    border: 0;
+    outline: 0;
+    border-radius: 10px 0 0 10px;
+}
+.txt-field2 input{
+    border: 0;
+    outline: 0;
+    width: 150px;
+    border-radius: 0 10px 10px 0;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px ;
+}
+.link p{
+    font-size: 18px;
+}
+.link p a{
+    color: #45fcf0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.link p a:hover{
+    text-decoration: underline;
+}
+.box{
+    margin: 10px ;
+}
+.box p {
+    font-size: 18px;
+}
+.box p a{
+    color: #6045fc;
+    text-decoration: none;
+    cursor: pointer;
+}
+.box p a:hover{
+    text-decoration: underline;
+}
+button{
+    margin: 10px 30%;
+    width: 250px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    background: linear-gradient(120deg,#6045fc, #4ae0f4);
+    font-size: 20px;
+    color: #fff;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 0 5px 15px #5a5a5a;
+}
+button:hover{
+    background: linear-gradient(-120deg,#6045fc, #4ae0f4);
+}
+
+@media (max-width: 500px){
+    .container{
+        width: 100%;
+        height: 530px;
+    }
+    .container .txt-field input{
+        width: 30%;
+        
+    }
+    .container .txt-field label{
+        font-size: 16px;
+    }
+    .container .txt-field label:last-child{
+        margin-left: 10px;
+        font-size: 220px;
+    }
+    .container .txt-field1 input{
+        width: 80%;
+    }
+    .container .txt-field1 label{
+        font-size: 16px;
+        /* margin: 25px; */
+    }
+    .selecting{
+        display: flex;
+        width: 20%;
+    }
+    .selecting label{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .selecting .selec {
+        display: flex;
+        padding-left: 50px;
+        margin-left: 30px;
+    }
+    .selecting .selec input{
+        width: 80px;
+    }
+    .container .txt-field3 input{
+        width: 90%;
+    }
+    .txt-field2 label{
+        font-size: 16px;
+    }
+    .txt-field2 select{
+        margin-left: 40px;
+    }
+    .txt-field3 label{
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .txt-field3 input{
+        margin-left: 5px;
+        width: 10px;
+    }
+    button{
+        margin-left: 20%;
+    }
+}
